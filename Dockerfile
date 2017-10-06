@@ -1,13 +1,13 @@
 FROM centos:6.6
 
-# install http
+# set repository
 RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 
 # install httpd
 RUN yum -y install httpd vim-enhanced bash-completion unzip
 
 # install php
-RUN yum install -y php php-mysql php-devel php-gd php-pecl-memcache php-pspell php-snmp php-xmlrpc php-xml
+RUN rpm --rebuilddb; yum install -y php php-mysql php-devel php-gd php-pecl-memcache php-pspell php-snmp php-xmlrpc php-xml
 
 # Install xdebug for php debugging
 RUN yum install -y php-pecl-xdebug

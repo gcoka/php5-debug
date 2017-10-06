@@ -26,3 +26,5 @@ access http://172.17.0.3/phpinfo.php
 https://github.com/nickistre/docker-lamp/tree/centos-6.6
 
 https://gist.github.com/chadrien/c90927ec2d160ffea9c4
+
+https://medium.com/@fkei/docker-rpmdb-checksum-is-invalid-dcdpt-pkg-checksums-xxxx-amzn1-u-%E5%AF%BE%E5%87%A6%E6%B3%95-289b8c58d4a3
