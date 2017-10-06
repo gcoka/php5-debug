@@ -1,5 +1,8 @@
 php-debug:
   build: .
+  # port forwarding to host
+  ports:
+    - 80:80
   environment:
     # replace with your local IP
     XDEBUG_CONFIG: remote_host={{192.168.179.3}} 

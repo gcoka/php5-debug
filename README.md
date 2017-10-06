@@ -20,8 +20,10 @@ Attaching to phpdebug_php-debug_1
 php-debug_1  | httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3 for ServerNam
 ```
 
-access http://172.17.0.3/phpinfo.php
-
+- Linux  
+    access http://172.17.0.3/phpinfo.php
+- mac OS  
+    access http://localhost/phpinfo.php
 # Reference
 https://github.com/nickistre/docker-lamp/tree/centos-6.6
 
