@@ -8,9 +8,11 @@
       "name": "Listen for XDebug",
       "type": "php",
       "request": "launch",
+      "stopOnEntry": false,
       "port": 9000,
-      "localSourceRoot": "${workspaceRoot}/public",
-      "serverSourceRoot": "/var/www/html"
+      "pathMappings": {
+        "/var/www/html": "${workspaceRoot}/public"
+      }
     }
   ]
 }
