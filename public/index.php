@@ -8,11 +8,11 @@
 </head>
 <body>
     <div style="background-color:lightgray;">
-    <?php
-    $a = "world";
-    echo "hello " . $a . " <br/>";
-    echo "from xdebug!";
-?>
+        <?php
+            $a = "world";
+            echo "hello " . $a . " <br/>";
+            echo "from xdebug!";
+        ?>
     </div>
 
 </body>

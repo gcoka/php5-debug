@@ -4,7 +4,9 @@ php-debug:
   ports:
     - 80:80
   environment:
-    # replace with your local IP
+    # Most of cases don't need supply local IP address to docker container.
+    # If your debug Break Point doesn't work well, 
+    # try to replace 192.168.179.3 with your local IP address.
     XDEBUG_CONFIG: remote_host={{192.168.179.3}} 
   volumes:
     - ./public:/var/www/html
